@@ -306,7 +306,7 @@ button:focus {
 }
 
 .home_banner_area .banner_inner .overlay {
-  background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
+  background: url(../img/T_LS_S11_Cumulative_01.png) no-repeat scroll center center;
   position: absolute;
   left: 0;
   right: 0;
@@ -548,6 +548,34 @@ button:focus {
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
+.filter_all:hover {
+  background: #21a6a6;
+}
+
+.filter_common:hover {
+  background: #929394;
+}
+
+.filter_uncommon:hover {
+  background: #3bb800;
+}
+
+.filter_rare:hover {
+  background: #00b9d3;
+}
+
+.filter_epic:hover {
+  background: #a606e6;
+}
+
+.filter_legendary:hover {
+  background: #a606e6;
+}
+
+.filter_iconseries:hover {
+  background: #21a6a6;
+}
+
 .gallery_f_inner {
   /*margin-bottom: -30px; Old shart*/
   margin-bottom: 0;
@@ -593,6 +621,7 @@ button:focus {
   font-size: 18px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
+  text-shadow: 1px 1px 1px #000; /* added by Maxim */
 }
 
 .h_gallery_item .hover .light {
