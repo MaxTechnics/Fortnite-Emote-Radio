@@ -220,6 +220,206 @@ document.getElementById('electroswing').addEventListener('click', function(){
     setSource('electroswing', true);
 });
 
+document.getElementById('extraterrestrial').addEventListener('click', function(){
+    setSource('extraterrestrial', true);
+});
+
+document.getElementById('fanciful').addEventListener('click', function(){
+    setSource('fanciful', true);
+});
+
+document.getElementById('fancyfeet').addEventListener('click', function(){
+    setSource('fancyfeet', true);
+});
+
+document.getElementById('fandangle').addEventListener('click', function(){
+    setSource('fandangle', true);
+});
+
+//WalkieWalk
+document.getElementById('feelinjaunty').addEventListener('click', function(){
+    setSource('feelinjaunty', true);
+});
+
+document.getElementById('fierce').addEventListener('click', function(){
+    setSource('fierce', false);
+});
+
+//Fire_Dancing
+document.getElementById('firespinner').addEventListener('click', function(){
+    setSource('firespinner', true);
+});
+
+//JellyFrog
+document.getElementById('fishin').addEventListener('click', function(){
+    setSource('fishin', true);
+});
+
+//Flamenco_2018_Emote_01_Loop
+document.getElementById('flamenco').addEventListener('click', function(){
+    introSong('flamenco', 945);
+});
+
+//athena_emote_flapper_music
+document.getElementById('flapper').addEventListener('click', function(){
+    setSource('flapper', true);
+});
+
+//athena_emote_floss_music
+document.getElementById('floss').addEventListener('click', function(){
+    setSource('floss', true);
+});
+
+//Emote_Wave_Dance_MX
+document.getElementById('flux').addEventListener('click', function(){
+    setSource('flux', true);
+});
+
+//Emote_Music_HipHopS7_Loop
+document.getElementById('freeflow').addEventListener('click', function(){
+    introSong('freeflow', 1930);
+});
+
+//MonteCarlo
+document.getElementById('freemix').addEventListener('click', function(){
+    setSource('freemix', true);
+});
+
+//Hip_Hop_GS-VII_Trap_Mix_01_Loop
+document.getElementById('freestylin').addEventListener('click', function(){
+    setSource('freestylin', true);
+});
+
+//Triple_Scoop
+document.getElementById('freewheelin').addEventListener('click', function(){
+    introSong('freewheelin', 740);
+});
+
+//athena_emote_fresh_music
+document.getElementById('fresh').addEventListener('click', function(){
+    setSource('fresh', true);
+});
+
+//Skeleton_Dance
+document.getElementById('frightfunk').addEventListener('click', function(){
+    introSong('frightfunk', 405);
+});
+
+//Emote_Funktime
+document.getElementById('getfunky').addEventListener('click', function(){
+    setSource('getfunky', true);
+});
+
+//DaBounce
+document.getElementById('getloose').addEventListener('click', function(){
+    setSource('getloose', true);
+});
+
+//Kpop04
+document.getElementById('glitter').addEventListener('click', function(){
+    setSource('glitter', true);
+});
+
+//Glowstick
+document.getElementById('glowsticks').addEventListener('click', function(){
+    setSource('glowsticks', true);
+});
+
+//Egyptian_Dance
+document.getElementById('glyphic').addEventListener('click', function(){
+    setSource('glyphic', true);
+});
+
+//ProfessorPup
+document.getElementById('gocatgo').addEventListener('click', function(){
+    introSong('gocatgo', 2650);
+});
+
+//emote_groove_jam_A
+document.getElementById('groovejam').addEventListener('click', function(){
+    setSource('groovejam', true);
+});
+
+//Guitar_Walk
+document.getElementById('guitarwalk').addEventListener('click', function(){
+    introSong('guitarwalk', 334);
+});
+
+//Shaka
+document.getElementById('hangloose').addEventListener('click', function(){
+    setSource('hangloose', false);
+});
+
+//Divine_Pose
+document.getElementById('harmony').addEventListener('click', function(){
+    introSong('harmony', 4000);
+});
+
+//Headbanger_Emote_Music_01_Loop
+document.getElementById('headbanger').addEventListener('click', function(){
+    introSong('headbanger', 490);
+});
+
+//Cyclone/Cyclone_Headbang_Loop
+document.getElementById('headbanger2').addEventListener('click', function(){
+    setSource('headbanger2', true);
+});
+
+//Athena_Emote_Hitchhiker_Music
+document.getElementById('hitchhiker').addEventListener('click', function(){
+    setSource('hitchhiker', true);
+});
+
+//Hula_Hoop
+document.getElementById('hoopmaster').addEventListener('click', function(){
+    setSource('hoopmaster', true);
+});
+
+//Emote_Music_Tap_Shuffle_05
+document.getElementById('hootenanny').addEventListener('click', function(){
+    setSource('hootenanny', true);
+});
+
+//Bunny_Flop
+document.getElementById('hoppity').addEventListener('click', function(){
+    setSource('hoppity', true);
+});
+
+//Emote_WIR_Music_Loop
+document.getElementById('hotmarat').addEventListener('click', function(){
+    introSong('hotmarat', 700);
+});
+
+//emote_hula_01
+document.getElementById('hula').addEventListener('click', function(){
+    setSource('hula', true);
+});
+
+//Hula_Hoop_Challenge
+var hulahoopchallengesuccess = false;
+document.getElementById('hulahoopin').addEventListener('click', function(){
+    if (hulahoopchallengesuccess == false) {
+        setSource('hulahoopinfail', false);
+        hulahoopchallengesuccess = true;
+    }
+    else if (hulahoopchallengesuccess == true) {
+        setSource('hulahoopinsuccess', true);
+        hulahoopchallengesuccess = false;
+    }
+
+});
+
+//Athena_Emotes_Music_Shoot_v7
+document.getElementById('hype').addEventListener('click', function(){
+    setSource('hype', true);
+});
+
+
+
+
+
+
+
 
 
 
@@ -247,7 +447,7 @@ document.getElementById('oggsrc').setAttribute('src', oga);
 audioel.load();
 audioel.play();
 }
-
+var startbit
 function introSong(src, duration) {
     var intro = './geir/ogg/' + src + '_intro.ogg';
     var startbit = new Audio(intro);
