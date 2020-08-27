@@ -105,6 +105,115 @@ document.getElementById('businesships').addEventListener('click', function(){
     setSource('businesships', true);
 });
 
+document.getElementById('capoeira').addEventListener('click', function(){
+    introSong('capoeira', 1600);
+});
+
+document.getElementById('cheerup').addEventListener('click', function(){
+    setSource('cheerup', true);
+});
+
+document.getElementById('cleangroove').addEventListener('click', function(){
+    setSource('cleangroove', true);
+});
+
+document.getElementById('cluckstrut').addEventListener('click', function(){
+    setSource('cluckstrut', true);
+});
+
+document.getElementById('conga').addEventListener('click', function(){
+    setSource('conga', true);
+});
+
+document.getElementById('crabby').addEventListener('click', function(){
+    setSource('crabby', true);
+});
+
+document.getElementById('crackdown').addEventListener('click', function(){
+    setSource('crackdown', true);
+});
+
+document.getElementById('crazyboy').addEventListener('click', function(){
+    setSource('crazyboy', true);
+});
+
+document.getElementById('crazyfeet').addEventListener('click', function(){
+    setSource('crazyfeet', true);
+});
+
+document.getElementById('crisscross').addEventListener('click', function(){
+    setSource('crisscross', true);
+});
+
+document.getElementById('dancemoves').addEventListener('click', function(){
+    let myDance = ['default0', 'default1'];
+    let defaultDance = myDance[Math.floor(Math.random() * myDance.length)];
+    setSource(defaultDance, false);
+});
+
+document.getElementById('danceoff').addEventListener('click', function(){
+    setSource('danceoff', true);
+});
+
+document.getElementById('dancetherapy').addEventListener('click', function(){
+    introSong('dancetherapy', 3900);
+});
+
+document.getElementById('daydream').addEventListener('click', function(){
+    setSource('daydream', true);
+});
+
+document.getElementById('deepend').addEventListener('click', function(){
+    setSource('deepend', true);
+});
+
+document.getElementById('discofever').addEventListener('click', function(){
+    setSource('discofever', true);
+});
+
+document.getElementById('discspinner').addEventListener('click', function(){
+    setSource('discspinner', true);
+});
+
+var doubleupowned = false;
+document.getElementById('doubleup').addEventListener('click', function(){
+    if (doubleupowned == false) {
+        setSource('doubleup', true);
+        doubleupowned = true;
+    }
+    else if (doubleupowned == true) {
+        setSource('doubleupowned', true);
+        doubleupowned = false;
+    }
+
+});
+
+document.getElementById('dreamfeet').addEventListener('click', function(){
+    setSource('dreamfeet', true);
+});
+
+document.getElementById('droop').addEventListener('click', function(){
+    introSong('droop', 370);
+});
+
+document.getElementById('dropthebass').addEventListener('click', function(){
+    introSong('dropthebass', 7300);
+});
+
+document.getElementById('drummajor').addEventListener('click', function(){
+    setSource('drummajor', true);
+});
+
+document.getElementById('dynamicshuffle').addEventListener('click', function(){
+    setSource('dynamicshuffle', true);
+});
+
+
+
+
+
+
+
 
 
 
