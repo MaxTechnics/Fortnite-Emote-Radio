@@ -197,7 +197,7 @@ document.getElementById('droop').addEventListener('click', function(){
 });
 
 document.getElementById('dropthebass').addEventListener('click', function(){
-    introSong('dropthebass', 7300);
+    introSong('dropthebass', 7400);
 });
 
 document.getElementById('drummajor').addEventListener('click', function(){
@@ -208,8 +208,17 @@ document.getElementById('dynamicshuffle').addEventListener('click', function(){
     setSource('dynamicshuffle', true);
 });
 
+document.getElementById('eagle').addEventListener('click', function(){
+    setSource('eagle', true);
+});
 
+document.getElementById('electroshuffle').addEventListener('click', function(){
+    setSource('electroshuffle', true);
+});
 
+document.getElementById('electroswing').addEventListener('click', function(){
+    setSource('electroswing', true);
+});
 
 
 
