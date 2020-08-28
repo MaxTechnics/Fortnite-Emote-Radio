@@ -463,7 +463,6 @@ document.getElementById('jamboree').addEventListener('click', function(){
     setSource('jamboree', true);
 });
 
-
 //Jaywalking
 document.getElementById('jaywalking').addEventListener('click', function(){
     setSource('jaywalking', true);
@@ -487,6 +486,289 @@ document.getElementById('jugglin').addEventListener('click', function(){
 //Monte_Keyboard
 document.getElementById('keyedup').addEventListener('click', function(){
     setSource('keyedup', true);
+});
+
+//Soccer_Emote_Music_01_Loop
+document.getElementById('kickups').addEventListener('click', function(){
+    setSource('kickups', true);
+});
+
+//TrophyCelebration
+document.getElementById('kissthecup').addEventListener('click', function(){
+    introSong('kissthecup', 5860);
+});
+
+//emote_cowboy
+document.getElementById('kneeslapper').addEventListener('click', function(){
+    setSource('kneeslapper', true);
+});
+
+//Gabby_Hip_Hop
+document.getElementById('laidbackshuffle').addEventListener('click', function(){
+    setSource('laidbackshuffle', true);
+});
+
+//Emote_Laugh_01
+document.getElementById('laughitup').addEventListener('click', function(){
+    setSource('laughitup', true);
+});
+
+//IndiaDance
+document.getElementById('lavish').addEventListener('click', function(){
+    setSource('lavish', true);
+});
+
+//LasagnaDance
+document.getElementById('lazerblast').addEventListener('click', function(){
+    setSource('lazerblast', true);
+});
+
+//Emote_Lazy_Shuffle_Faster_11_Loop
+document.getElementById('lazyshuffle').addEventListener('click', function(){
+    setSource('lazyshuffle', true);
+});
+
+//Silly_Jumps
+document.getElementById('leapin').addEventListener('click', function(){
+    setSource('leapin', true);
+});
+
+//TreeLight
+document.getElementById('lightup').addEventListener('click', function(){
+    introSong('lightup', 10000);
+});
+
+//emote_LivingLarge_A
+document.getElementById('livinglarge').addEventListener('click', function(){
+    setSource('livinglarge', true);
+});
+
+//Athena_Emotes_Music_Cowbell_Loop
+document.getElementById('llamabell').addEventListener('click', function(){
+    introSong('llamabell', 3690);
+});
+
+//Emote_Wizard_Music
+document.getElementById('llamacadabra').addEventListener('click', function(){
+    setSource('llamacadabra', false);
+});
+
+//Llama_March
+document.getElementById('llamaconga').addEventListener('click', function(){
+    setSource('llamaconga', true);
+});
+
+//Athena_Emote_Make_It_Plantain_Loop
+document.getElementById('makeitplantain').addEventListener('click', function(){
+    setSource('makeitplantain', true);
+});
+
+//athena_emote_makeitrain_music
+document.getElementById('makeitrain').addEventListener('click', function(){
+    setSource('makeitrain', false);
+});
+
+//SquishyDance
+document.getElementById('marshwalk').addEventListener('click', function(){
+    setSource('marshwalk', true);
+});
+
+//Emote_Mime_Accordion_06
+document.getElementById('mimetime').addEventListener('click', function(){
+    setSource('mimetime', false);
+});
+
+//Banana
+document.getElementById('nananana').addEventListener('click', function(){
+    setSource('nananana', true);
+});
+
+//NeverGonna
+document.getElementById('nevergonna').addEventListener('click', function(){
+    setSource('nevergonna', true);
+});
+
+//Tour_Bus
+document.getElementById('ninjastyle').addEventListener('click', function(){
+    setSource('ninjastyle', true);
+});
+
+//OneArmFloss
+document.getElementById('nosweat').addEventListener('click', function(){
+    setSource('nosweat', true);
+});
+
+//OGRunningMan
+document.getElementById('oldschool').addEventListener('click', function(){
+    setSource('oldschool', true);
+});
+
+//Hip_Hop_Good_Vibes_Mix_01_Loop
+document.getElementById('orangejustice').addEventListener('click', function(){
+    setSource('orangejustice', true);
+});
+
+//July_Books
+document.getElementById('outwest').addEventListener('click', function(){
+    setSource('outwest', true);
+});
+
+//CoolRobot
+document.getElementById('overdrive').addEventListener('click', function(){
+    setSource('overdrive', true);
+});
+
+//StringDance
+document.getElementById('partyhips').addEventListener('click', function(){
+    setSource('partyhips', true);
+});
+
+//Paws
+document.getElementById('pawsclaws').addEventListener('click', function(){
+    setSource('pawsclaws', true);
+});
+
+//StrawberryPilot
+document.getElementById('peaceout').addEventListener('click', function(){
+    setSource('peaceout', false);
+});
+
+//emote_saxophone and emote_saxophone_cymbal
+document.getElementById('phoneitin').addEventListener('click', function(){
+    introSong('phoneitin', 420);
+});
+
+//RunningManV3
+document.getElementById('pickitup').addEventListener('click', function(){
+    setSource('pickitup', true);
+});
+
+//BalletSpin
+document.getElementById('pirouette').addEventListener('click', function(){
+    setSource('pirouette', true);
+});
+
+//Pizza_Time
+document.getElementById('pizzaparty').addEventListener('click', function(){
+    setSource('pizzaparty', false);
+});
+
+//HandsUp
+document.getElementById('planetaryvibe').addEventListener('click', function(){
+    setSource('planetaryvibe', true);
+});
+
+//Indigo_Apple
+document.getElementById('poki').addEventListener('click', function(){
+    setSource('poki', true);
+});
+
+//RideThePony2
+document.getElementById('ponyup').addEventListener('click', function(){
+    introSong('ponyup', 400);
+});
+
+//Athena_Emote_PopLock
+document.getElementById('poplock').addEventListener('click', function(){
+    setSource('poplock', true);
+});
+
+//Emote_PraiseTheTomato
+document.getElementById('praisethetomato').addEventListener('click', function(){
+    setSource('praisethetomato', false);
+});
+
+//Breakfast_Coffee
+document.getElementById('primomoves').addEventListener('click', function(){
+    setSource('primomoves', true);
+});
+
+//Athena_Emotes_Music_PumpDance
+document.getElementById('pumpernickel').addEventListener('click', function(){
+    setSource('pumpernickel', true);
+});
+
+//Pumpkin_Dance
+document.getElementById('pumpitup').addEventListener('click', function(){
+    introSong('pumpitup', 3600);
+});
+
+//Cyclone/Cyclone_Mic_Raise_Loop
+document.getElementById('rage').addEventListener('click', function(){
+    setSource('rage', true);
+});
+
+//RageQuit
+document.getElementById('ragequit').addEventListener('click', function(){
+    setSource('ragequit', false);
+});
+
+//Make_It_Rain_v2
+document.getElementById('rainingdoubloons').addEventListener('click', function(){
+    setSource('rainingdoubloons', true);
+});
+
+//Lets_Play
+document.getElementById('raisethecup').addEventListener('click', function(){
+    setSource('raisethecup', true);
+});
+
+//Raise_The_Roof
+document.getElementById('raisetheroof').addEventListener('click', function(){
+    setSource('raisetheroof', true);
+});
+
+//emote_zippy_A
+document.getElementById('rambunctious').addEventListener('click', function(){
+    setSource('rambunctious', true);
+});
+
+//athena_emote_founders_music
+document.getElementById('reanimated').addEventListener('click', function(){
+    setSource('reanimated', true);
+});
+
+//DoubleSnap
+document.getElementById('revel').addEventListener('click', function(){
+    setSource('revel', true);
+});
+
+//Ribbon_Dance
+document.getElementById('ribbondancer').addEventListener('click', function(){
+    setSource('ribbondancer', true);
+});
+
+//Sleigh_It
+document.getElementById('ridealong').addEventListener('click', function(){
+    setSource('ridealong', true);
+});
+
+//athena_emote_ridethepony_music_01 and athena_emote_ridethepony_music_02
+var ridetheponysong = 'song0'
+document.getElementById('ridethepony').addEventListener('click', function(){
+    if (ridetheponysong == 'song0') {
+        setSource('ridethepony0', true);
+        ridetheponysong = 'song1';
+    }
+    else if (ridetheponysong == 'song1') {
+        setSource('ridethepony1', true);
+        ridetheponysong = 'song0';
+    }
+});
+
+//BellRinger
+document.getElementById('ringiton').addEventListener('click', function(){
+    setSource('ringiton', true);
+});
+
+//BR_Emote_Shred_Guitar_Mix_03_Loop
+document.getElementById('rockout').addEventListener('click', function(){
+    setSource('rockout', true);
+});
+
+//Athena_Emote_Music_RunningMan
+document.getElementById('runningman').addEventListener('click', function(){
+    setSource('runningman', true);
 });
 
 
