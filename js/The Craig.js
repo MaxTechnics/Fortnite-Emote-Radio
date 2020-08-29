@@ -771,46 +771,355 @@ document.getElementById('runningman').addEventListener('click', function(){
     setSource('runningman', true);
 });
 
+//SadTrombone
+document.getElementById('sadtrombone').addEventListener('click', function(){
+    setSource('sadtrombone', false);
+});
+
+//TakeTheW
+document.getElementById('savorthew').addEventListener('click', function(){
+    setSource('savorthew', true);
+});
+
+//KPopDance03
+document.getElementById('scenario').addEventListener('click', function(){
+    setSource('scenario', true);
+});
+
+//Donut_One
+document.getElementById('scootin').addEventListener('click', function(){
+    setSource('scootin', true);
+});
+
+//emote_samba_new_B
+document.getElementById('shakeitup').addEventListener('click', function(){
+    setSource('shakeitup', true);
+});
+
+//Emote_WristFlick_Music
+document.getElementById('shimmer').addEventListener('click', function(){
+    setSource('shimmer', true);
+});
+
+//Emote_Showstopper
+document.getElementById('showstopper').addEventListener('click', function(){
+    setSource('showstopper', true);
+});
+
+//StepBreakdance
+document.getElementById('sidehustle').addEventListener('click', function(){
+    setSource('sidehustle', true);
+});
+
+//ElectroShuffleV2
+document.getElementById('signatureshuffle').addEventListener('click', function(){
+    setSource('signatureshuffle', true);
+});
+
+//Sign_Spinner
+document.getElementById('signspinner').addEventListener('click', function(){
+    setSource('signspinner', true);
+});
+
+//Burger_Flipper
+document.getElementById('sizzlin').addEventListener('click', function(){
+    setSource('sizzlin', true);
+});
+
+//Thigh_Slapper
+var slaphappysuccess = false;
+document.getElementById('slaphappy').addEventListener('click', function(){
+    if (slaphappysuccess == false) {
+        introSong('slaphappyfail',2490);
+        slaphappysuccess = true;
+    }
+    else if (slaphappysuccess == true) {
+        
+        slaphappysuccess = false;
+    }
+
+});
+
+//Athena_Emote_JazzDance_Music
+document.getElementById('slick').addEventListener('click', function(){
+    setSource('slick', true);
+});
+
+//Octopus_Ultra_Banger_06_Loop
+document.getElementById('slitherin').addEventListener('click', function(){
+    setSource('slitherin', true);
+});
+
+//emote_kmale_A
+document.getElementById('smoothmoves').addEventListener('click', function(){
+    setSource('smoothmoves', true);
+});
+
+//Touchdown_SpikeIt_Emote_Music_01_Loop
+document.getElementById('spikeit').addEventListener('click', function(){
+    introSong('spikeit',34560);
+});
+
+//Jumpstyle
+document.getElementById('springy').addEventListener('click', function(){
+    setSource('springy', true);
+});
+
+//Sprinkler_Emote_Music_01_Loop
+document.getElementById('sprinkler').addEventListener('click', function(){
+    setSource('sprinkler', true);
+});
+
+//eastern_bloc_musc_setup_D
+document.getElementById('squatkick').addEventListener('click', function(){
+    introSong('squatkick',370);
+});
+
+//Emote_PopRock_01
+document.getElementById('starpower').addEventListener('click', function(){
+    setSource('starpower', true);
+});
+
+//StatuePose
+document.getElementById('statuesque').addEventListener('click', function(){
+    introSong('statuesque',2000);
+});
+
+//Emote_Irish_Jig_Foley_Music_Loop
+document.getElementById('stepitup').addEventListener('click', function(){
+    setSource('stepitup', true);
+});
 
 
+//Treadmill
+document.getElementById('stride').addEventListener('click', function(){
+    setSource('stride', true);
+});
+
+//DoggyStrut
+document.getElementById('strut').addEventListener('click', function(){
+    setSource('strut', true);
+});
 
 
+//CandyDance
+document.getElementById('sugarrush').addEventListener('click', function(){
+    setSource('sugarrush', true);
+});
+
+//Athena_Emotes_Music_SwipeIt
+document.getElementById('swipeit').addEventListener('click', function(){
+    setSource('swipeit', true);
+});
+
+//Breakboy
+document.getElementById('switchstep').addEventListener('click', function(){
+    setSource('switchstep', true);
+});
+
+//buffcat
+document.getElementById('swolecat').addEventListener('click', function(){
+    introSong('swolecat',1950);
+});
+
+//Taco_Time
+document.getElementById('tacotime').addEventListener('click', function(){
+    setSource('tacotime', true);
+});
+
+//Emote_TaiChi_Loop_01
+document.getElementById('taichi').addEventListener('click', function(){
+    introSong('taichi',300);
+});
+
+//Emote_TakeTheElf_SFX_Start_01
+document.getElementById('taketheelf').addEventListener('click', function(){
+    setSource('taketheelf', false);
+});
+
+//Athena_Music_Emotes_TakeTheL
+document.getElementById('takethel').addEventListener('click', function(){
+    setSource('takethel', true);
+});
+
+//Just_Home
+document.getElementById('therenegade').addEventListener('click', function(){
+    setSource('therenegade', true);
+});
+
+//athena_emote_robot_music
+document.getElementById('therobot').addEventListener('click', function(){
+    setSource('therobot', true);
+});
+
+//athena_emote_worm_music
+document.getElementById('theworm').addEventListener('click', function(){
+    setSource('theworm', true);
+});
+
+//athena_emote_hot_music
+document.getElementById('tidy').addEventListener('click', function(){
+    setSource('tidy', true);
+});
+
+//PartyJazzTwinkleToes
+document.getElementById('tippytap').addEventListener('click', function(){
+    setSource('tippytap', true);
+});
+
+//Art_Giant
+document.getElementById('tootsieslide').addEventListener('click', function(){
+    setSource('tootsieslide', true);
+});
+
+//HappySkipping
+document.getElementById('tralala').addEventListener('click', function(){
+    setSource('tralala', true);
+});
+
+//emote_kpop_01
+document.getElementById('trueheart').addEventListener('click', function(){
+    setSource('trueheart', true);
+});
+
+//Athena_Emotes_Music_Twist
+document.getElementById('twist').addEventListener('click', function(){
+    setSource('twist', true);
+});
+
+//Dark_Fire_Legends
+document.getElementById('unification').addEventListener('click', function(){
+    setSource('unification', false);
+});
+
+//MagicMan
+document.getElementById('verve').addEventListener('click', function(){
+    setSource('verve', true);
+});
+
+//SneakyTraversal
+document.getElementById('verysneaky').addEventListener('click', function(){
+    setSource('verysneaky', true);
+});
+
+//Grooving
+document.getElementById('vibin').addEventListener('click', function(){
+    setSource('vibin', true);
+});
+
+//Athena_Emote_DancingGirl_Loop
+document.getElementById('vivacious').addEventListener('click', function(){
+    setSource('vivacious', true);
+});
+
+//ArmWave
+document.getElementById('wavyt').addEventListener('click', function(){
+    setSource('wavyt', true);
+});
+
+//PartyJazzWigglyDance
+document.getElementById('wellrounded').addEventListener('click', function(){
+    setSource('wellrounded', true);
+});
+
+//Wheres_Matt
+document.getElementById('whereismatt').addEventListener('click', function(){
+    setSource('whereismatt', true);
+});
+
+//Emote_Whirlwind_Music
+document.getElementById('whirlwind').addEventListener('click', function(){
+    introSong('whirlwind', 380)
+});
+
+//Wiggle_Music_Loop
+document.getElementById('wiggle').addEventListener('click', function(){
+    setSource('wiggle', true);
+});
+
+//WindmillFloss
+document.getElementById('windmillfloss').addEventListener('click', function(){
+    setSource('windmillfloss', true);
+});
+
+//SecurityGuard
+document.getElementById('workit').addEventListener('click', function(){
+    setSource('workit', true);
+});
+
+//Emote_Aerobics_01
+document.getElementById('workitout').addEventListener('click', function(){
+    setSource('workitout', true);
+});
+
+//PeelyBones
+document.getElementById('xylobone').addEventListener('click', function(){
+    setSource('xylobone', false);
+});
+
+//Youre_Awesome_Emote_Music
+document.getElementById('youreawesome').addEventListener('click', function(){
+    setSource('youreawesome', false);
+});
+
+//Athena_Music_Emotes_Bendy
+document.getElementById('zany').addEventListener('click', function(){
+    setSource('zany', true);
+});
+
+//ZombieWalk
+document.getElementById('zombified').addEventListener('click', function(){
+    setSource('zombified', true);
+});
 
 
-
-
-
-
-
+const audioel = document.getElementById('audioplayer');
+const startbit = document.getElementById('startbit');
 function setSource(src, loop) {
-    const audioel = document.getElementById('audioplayer');
+    startbit.pause();
+    audioel.pause();
     var oga = './geir/ogg/' + src + '.ogg';
- //   var wavs = './geir/wav/' + src + '.wav';
+    var wavs = './geir/wav/' + src + '.wav';
+    var mpgs = './geir/mp3/' + src + '.mp3';
     console.log(oga);
-   // console.log(wavs);
+    console.log(wavs);
+    console.log(mpgs);
     if (loop == true) {
         audioel.loop = true;
     }
     else {
         audioel.loop = false;
     }
-document.getElementById('oggsrc').setAttribute('src', oga);
-//document.getElementById('wavssrc').setAttribute('src', wavs);
-audioel.load();
-audioel.play();
-}
-var startbit
-function introSong(src, duration) {
-    var intro = './geir/ogg/' + src + '_intro.ogg';
-    var startbit = new Audio(intro);
-    startbit.load();
-    const audioel = document.getElementById('audioplayer');
-    var oga = './geir/ogg/' + src + '.ogg';
-    //   var wavs = './geir/wav/' + src + '.wav';
-    console.log(oga);
-    // console.log(wavs);
     document.getElementById('oggsrc').setAttribute('src', oga);
-    //document.getElementById('wavssrc').setAttribute('src', wavs);
+    document.getElementById('wavsrc').setAttribute('src', wavs);
+    document.getElementById('mpgsrc').setAttribute('src', mpgs);
+
+    audioel.load();
+    audioel.play();
+}
+function introSong(src, duration) {
+    startbit.pause();
+    audioel.pause();
+    var oggintro = './geir/ogg/' + src + '_intro.ogg';
+    var wavintro = './geir/wav/' + src + '_intro.wav';
+    var mpgintro = './geir/mp3/' + src + '_intro.mp3';
+    console.log(oggintro);
+    console.log(wavintro);
+    console.log(mpgintro);
+    document.getElementById('oggintro').setAttribute('src', oggintro);
+    document.getElementById('wavintro').setAttribute('src', wavintro);
+    document.getElementById('mpgintro').setAttribute('src', mpgintro);
+    startbit.load();
+    var oga = './geir/ogg/' + src + '.ogg';
+    var wavs = './geir/wav/' + src + '.wav';
+    var mpgs = './geir/mp3/' + src + '.mp3';
+
+    console.log(oga);
+    console.log(wavs);
+    console.log(mpgs);
+    document.getElementById('oggsrc').setAttribute('src', oga);
+    document.getElementById('wavsrc').setAttribute('src', wavs);
+    document.getElementById('mpgsrc').setAttribute('src', mpgs);
     audioel.loop = true;
     audioel.load();
     setTimeout(() => {
